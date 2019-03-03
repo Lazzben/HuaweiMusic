@@ -163,7 +163,7 @@ player.prototype = {
     }
   },
   start: function(){
-    this.ajax('https://jirengu.github.io/data-mock/huawei-music/music-list.json')
+    this.ajax('https://Lazzben.github.io/data-mock/huawei-music/music-list.json')
       .then( ret => {
         this.musicList = ret; 
         this.audio.src = this.musicList[this.musicIndex].url;
