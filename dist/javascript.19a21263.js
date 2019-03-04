@@ -355,7 +355,7 @@ player.prototype = {
   start: function start() {
     var _this4 = this;
 
-    this.ajax('https://jirengu.github.io/data-mock/huawei-music/music-list.json').then(function (ret) {
+    this.ajax('https://Lazzben.github.io/data-mock/huawei-music/music-list.json').then(function (ret) {
       _this4.musicList = ret;
       _this4.audio.src = _this4.musicList[_this4.musicIndex].url;
 
@@ -437,7 +437,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63017" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61342" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

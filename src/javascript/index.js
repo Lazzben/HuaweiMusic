@@ -210,5 +210,4 @@ player.prototype = {
     return promise;
   }
 }
-
 var player = new player($('#player'))
